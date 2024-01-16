@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="btn1">Beleu</button>
+    <button id="btn2">Violet</button>
+    <button id="btn3">Orange</button>
+    <button id="btn4">brun</button>
+    <button id="btn5">jaune</button>
+
+    <section class="section7">
+        <div>
+            <h1>Nous sommes une entreprise mondiale avec une culture locale</h1>
+        </div>
+    </section>
+    <section class="section3">
+        
+
+        <img src="Images/images10.jpg" width="1500" height="500" alt="gipo">
+
+        <div>
+            <h1>Mes Informations de contact <h1>
+
+            <a href="https://www.facebook.com/search/top?q=%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3%20%D8%B3%D8%A7%D9%86%20%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86%20%D8%A8%D8%AB%20%D9%85%D8%A8%D8%A7%D8%B4%D8%B1&locale=fr_FRhttps://www.facebook.com/search/top?q=%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3%20%D8%B3%D8%A7%D9%86%20%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86%20%D8%A8%D8%AB%20%D9%85%D8%A8%D8%A7%D8%B4%D8%B1&locale=fr_FR">Take me to Facebook Website</a>
+
+            <nav>
+                <a href="/html/"> 
+                    <a href="/css/"> gmail: abdarahmancheiv95h@gmail.com </a>
+	            </a>
+               </nav>
+			<nav>
+				<a href="/jquery/">TEL: +221 78 733 84 97  </a>
+				</nav>
+	
+			<Nav>
+				<a href="/jquery/"> Whatssap:+222 22461577 </a>
+       			</Nav>
+        </div>
+        <div>
+            <div id="section3title">
+               
+                <p></p>
+            </div>
+    
+            <div id="section3logos">
+                <img src="./Images/images1.jpg" id="sd1" alt="znanylekarz">
+                <img src="./Images/images10.jpg" id="sd2" alt="Doctoralia">
+                <img src="./Images/images2.jpg" id="sd3" alt="MioDottore">
+                <img src="./Images/images3.jpg" id="sd4" alt="doktortakvimi">
+                <img src="Images/images4.jpg" id="sd5" alt="Znamylekar">
+                <img src="Images/images5.jpg" id="sd6" alt="jameda">
+                <img src="Images/images6.jpg" id="sd7" alt="tuotempo">
+                <img src="Images/images7.jpg" id="sd8" alt="gipo">
+                <img src="Images/images8.jpg" id="sd9" alt="clinicloud">
+                <img src="Images/images9.jpg" id="sd01" alt="feegow">
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+const btn1 = document.getElementById("btn1");
+    const btn2 = document.getElementById("btn2");
+    const btn3 = document.getElementById("btn3");
+    const btn4 = document.getElementById("btn4");
+    const btn5 = document.getElementById("btn5");
+    
+    btn1.onclick = () => document.body.style.backgroundColor = "blue" 
+    btn2.onclick = () => document.body.style.backgroundColor = "violet"
+    btn3.onclick = () => document.body.style.backgroundColor = "orange"
+    btn4.onclick = () => document.body.style.backgroundColor = "brown"
+    btn5.onclick = () => document.body.style.backgroundColor = "yellow"
+
+        function sdsd (a) {
+            var imageContainer = document.getElementById('section3logos');
+            console.log('gff');
+        // Sélectionnez toutes les images à l'intérieur du conteneur
+        var images = imageContainer.getElementsByTagName('img');
+        for (var i = 0; i < images.length; i++) {
+        // Modifiez la largeur de chaque image (par exemple, 300 pixels)
+        images[i].style.width = '300px';
+        }
+        document.getElementById(a).style.width = '1000px'
+
+        }
+        document.getElementById("sd1").addEventListener("click", function() {
+    sdsd('sd1');
+        });
+
+        document.getElementById("sd2").addEventListener("click", function() {
+    sdsd('sd2');
+        });
+        document.getElementById("sd3").addEventListener("click", function() {
+    sdsd('sd3');
+        });
+        document.getElementById("sd4").addEventListener("click", function() {
+    sdsd('sd4');
+        });
+        document.getElementById("sd5").addEventListener("click", function() {
+    sdsd('sd5');
+        });
+        document.getElementById("sd6").addEventListener("click", function() {
+    sdsd('sd6');
+        });
+        document.getElementById("sd7").addEventListener("click", function() {
+    sdsd('sd7');
+        });
+        document.getElementById("sd8").addEventListener("click", function() {
+    sdsd('sd8');
+        });
+        document.getElementById("sd9").addEventListener("click", function() {
+    sdsd('sd9');
+        });
+        document.getElementById("sd01").addEventListener("click", function() {
+    sdsd('sd01');
+        });
+
+    </script>
+</body>
+</html>
